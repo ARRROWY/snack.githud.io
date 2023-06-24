@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <!-- Add your CSS stylesheets and external libraries here -->
+  <link rel="stylesheet" href="search.css">
+
+  <link rel="icon" type="Photo/Snack store.png" href="iconn.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Didact+Gothic&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<header>
+    <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navbar-brand" href="#">
+            <img src="Photo/Snack store.png" alt="Logo" style="height: 50px; width: 50px;">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="types.html">INFORMATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html">SEARCH PAGE</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="reg.html">REGISTRATION FORM</a>
+        </li>
+        <li class="nav-item">
+          <button id="muteButton" class="btn-danger" style="margin-top: 10%;" onclick="toggleMute()">Mute/Unmute</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<body id="my-body">
+  <!-- Your HTML content goes here -->
+  <div class="container">
+    <div class="search-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <input type="text" id="search-input" class="form-control" placeholder="Search...">
+        </div>
+        <div class="col-sm-16 col-md-5 col-lg-">
+          <select id="filter-select" class="form-select">
+            <option value="all">All</option>
+            <option value="chips">Chips</option>
+            <option value="popcorn">Popcorn</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="gum">Gum</option>
+            <option value="cookie">Cookie</option>
+            <option value="sugardrinks">Sugar drinks</option>
+            <option value="nuts">Nuts</option>
+            <option value="granola">Granola</option>
+          </select>
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-2">
+          <button id="search-btn" class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </div>
+  <p style="margin-top: -40px;margin-bottom: 40px; text-align: center; font-size: 35px;">Here you will find here the skew you have always wanted. We are glad to present you our assortment.</p>
+  <hr>
+    <div id="product-container" class="row g-4">
+      <!-- Products will be dynamically added here -->
+      <!-- Products will be dynamically added here -->
+<!-- Example product card -->
+<div class="col">
+    <div class="card">
+      <img src="Photo/Snack store.png" class="card-img-top" alt="Product Image">
+      <div class="card-body">
+        <h5 class="card-title">Product Name</h5>
+        <p class="card-text">Product Characteristics</p>
+        <button type="button" id="btn-bob" class="btn btn-primary">Buy</button> <!-- Added Buy button -->
+      </div>
+    </div>
+  </div>
+  
+    </div>
+    <hr>
+  </div>
+  <div class="about_us">
+    <h1>Snack Arrow</h1>
+    <p> 
+      
+      Location:  Turan 37 floor 1.
+      <br>
+      Contact number: +7 707 127 77 72
+      <br>
+  </p>
+
+  </div>
+  <audio preload="auto" src="jazz/muzapporangespace_Gerald_Marks_Seymor_Simons_-_All_of_Me_67358264.mp3" loop="true" autobuffer>
+  </audio>
+  <!-- Add your JavaScript code and external scripts here -->
+  <script src="search.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

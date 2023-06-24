@@ -1,0 +1,82 @@
+h1, h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+p {
+    font-family: 'Didact Gothic', sans-serif;
+}
+body {
+    padding-top: 120px; /* Adjust this value to match the height of the navbar */
+  }
+  
+ #my-body{
+    background-color:  #dd9d1b;
+    color: #dfdbb6;
+ }
+  .navbar-brand {
+    margin-top: -8px;
+  }
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -1px;
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #dfdbb6; /* Цвет текста при наведении */
+  }
+  
+  ul {
+    font-family: 'Alegreya Sans', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 25px; /* Adjust the font size as needed */
+    transition: color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  a:hover {
+    color: #dfdbb6; /* Change the font color on hover */
+  }
+  
+  .img-fluid{
+    border-radius: 80px;
+  }
+ table{
+  border-spacing: 30px;
+ }
+ button {
+  
+  padding: 15px 25px;
+  border: 0;
+  color: #212121;
+  z-index: 1;
+  background: #dd9d1b;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ button:hover {
+  color: #e8e8e8;
+ }

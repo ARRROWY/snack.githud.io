@@ -1,0 +1,124 @@
+#my-body{
+    background-color:  #e31ecf;
+    color: #dfdbb6;
+ }
+ 
+ .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 100px;
+  }
+  
+  #search-input {
+    width: 700px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #filter-select {
+    margin-right: 10px;
+    margin-left: 340px;
+    width: 215px;
+  }
+  
+ 
+  #search-btn {
+    padding: 5px 10px;
+    margin-left: 290px;
+    width: 150px;
+  
+  }
+  
+  #search-btn:active {
+    background-color: #286090; /* New background color for active state */
+    border-color: #286090; /* New border color for active state */
+    box-shadow: none; /* Remove the default blue shadow */
+    outline: none; /* Remove the default outline */
+  }
+  
+  
+  #product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+
+/* Define the fixed width and height for the image elements */
+.card-img-top {
+    width: 400px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain the aspect ratio and crop if necessary */
+  }
+  .card-title {
+    color: #333333; /* Replace #ff0000 with your desired color value */
+  }
+  .card-text {
+    color: #333333; /* Замените #ff0000 на желаемый цвет */
+  }
+  
+  .navbar-brand {
+    margin-top: -8px;
+  }
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -1px;
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #dfdbb6; /* Цвет текста при наведении */
+  }
+  
+  ul {
+    font-family: 'Alegreya Sans', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 25px; /* Adjust the font size as needed */
+    transition: color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  a:hover {
+    color: #dfdbb6; /* Change the font color on hover */
+  }
+  .about_us {
+    margin-top: 30px;
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    #product-container {
+      grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #product-container {
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #product-container {
+      grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+  }
+  

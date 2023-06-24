@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Arrow</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" type="Photo/Snack store.png" href="iconn.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Didact+Gothic&display=swap">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body id="my-bod">
+ 
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">&#9776;</span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img src="Photo/Snack store.png" alt="Logo" style="height: 50px; width: 50px;">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="types.html">INFORMATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">SEARCH PAGE</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="reg.html">REGISTRATION FORM</a>
+            </li>
+            <li class="nav-item">
+              <button id="muteButton" class="btn-danger" style="margin-top: 10%;" onclick="toggleMute()">Mute/Unmute</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <br>
+    
+    <div class="reg">
+
+        <div class="login-box">
+ 
+            <form>
+              <div class="user-box">
+                <input type="text" name="first_name" required="">
+                <label>First name</label>
+              </div>
+              <div class="user-box">
+                <input type="text" name="last_name" required="">
+                <label>Last name</label>
+              </div>
+              <div class="user-box">
+                <input type="date" name="birthDate">
+                <label>Date of Birth</label>
+              </div>
+                <div class="checkbox">
+                <div class="radio-grid">
+                <h4>I'm a:</h4>
+                <div>
+                    <input type="radio" name="title_am" value="Mr." required>
+                    <label>Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="title_am" value="Mrs.">
+                    <label>Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="title_am" value="Ms.">
+                    <label>Other creature</label>
+                </div>
+              </div>
+            </div>
+<br>
+            <div class="checkbox">
+              <div class="radio-grid">
+              <h4>I would like to find:</h4>
+              <div>
+                  <input type="checkbox" name="title_am" value="Mr." required>
+                  <label>Chips</label>
+              </div>
+              <div>
+                  <input type="checkbox" name="title_am" value="Mrs.">
+                  <label>Popcorn</label>
+              </div>
+              <div>
+                  <input type="checkbox" name="title_am" value="Ms.">
+                  <label>Cookie</label>
+              </div>
+              <div>
+                <input type="checkbox" name="title_am" value="Ms.">
+                <label>Gum</label>
+            </div>
+            </div>
+          </div>
+            <br>
+              <div class="user-box">
+                <input type="text" name="Username" required="">
+                <label>Email</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="password" required="">
+                <label>Password</label>
+              </div>
+             
+              <center>
+              <a href="#">
+                <button type="button" style="border-color:#eef3ee ; width: 100px; border: 15px; background-color: #eef3ee;" onclick="validateForm()">Send</button>
+                 <span></span>
+              </a></center>
+            </form>
+          </div>
+        
+    
+      </div>
+
+    <audio preload="auto" src="jazz/muzapporangespace_Gerald_Marks_Seymor_Simons_-_All_of_Me_67358264.mp3" loop="true" autobuffer>
+    </audio>
+    
+    
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="reg.js"></script>
+</body>
+</html>
